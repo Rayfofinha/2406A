@@ -33,6 +33,34 @@ fun main() {
      // Int - números inteiros Ex: 100
      // Double - números decimais, com um limite de até 7 digitos apóss a vírgula 
      // arredondam o número Ex: 22.5
+      ------------------------------------------------------
+      fun main() {
+   // Concatenação
+   /*
+   var tartaruga = "Michael Havckson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga)
+    
+    var leclerc = 2 
+    var alonso = 1 
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    var nome = "Rayane"
+    var idade = 14
+    var cidade = "São Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */  
+    //Exercícios - Faça um diálogo de no minímo 15 linha, nele deve conter, 
+    //os nomes de quem estão falando de forma concatenada usando variáveis 
+    // Usem a criatividade e
+     
+}
+--------------------------------------------------------------------------------------------------
      // 
      // Float - números decimais, com um limite de até de 14 digitos após a vírgula -
      // arredonda o número Ex: 22.5f
