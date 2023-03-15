@@ -77,4 +77,56 @@ fun main() {
      var professorr: String 
     
 }     
+//-----------------------------------------------------------------
+fun main() {
+   // Concatenação
+   /*
+   var tartaruga = "Michael Havckson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga)
+    
+    var leclerc = 2 
+    var alonso = 1 
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    var nome = "Rayane"
+    var idade = 14
+    var cidade = "São Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */  
+    //Exercícios - Faça um diálogo de no minímo 15 linha, nele deve conter, 
+    //os nomes de quem estão falando de forma concatenada usando variáveis 
+    // Usem a criatividade  
+    // 
+var gigi = "Gise" 
+var ray = "Rayane"  
+    
+    println("$gigi:Oii $ray vai pra escola hoje?")  
+    println("$ray:Bom Dia $gigi vou sim porém estou com dor de cabeça!")
+    println("$gigi:Nossa $ray mais já tomou algum remédio?")
+    println("$ray:Já sim $gigi, enfim você vai hoje?") 
+    println("$gigi:Vou sim $ray, fez a lição de Geografia?") 
+    println("$ray:Eitaa esqueci $gigi kkk você fez?") 
+    println("$gigi:Não também $ray kkkk") 
+    println("$ray:Oxi $gigi e porque você veio lembrar agora??")  
+    println("$gigi:$ray e porque vi agora no grupos eles falando sobre isso") 
+    println("$ray:Entendi $gigi, mais você lembra pelo menos o tema que era pra fazer?") 
+    println("$gigi:Pior que não $ray!!") 
+    println("$ray:Muito estudiosa você $gigi muito bem kkkk")  
+    println("$gigi:Obrigada kkkk $ray, já ta pronta??")  
+    println("$ray:Já sim $gigi vamos???")  
+    println("$gigi:Vamos $ray")
+    
+    
+    
+    
+  
+     
+}
+//-------------------------------------
      
