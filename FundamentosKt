@@ -128,5 +128,48 @@ var ray = "Rayane"
   
      
 }
-//-------------------------------------
+//-------------------------------------   
+
+fun main() {
+
+   //Operadores Matemáticos  
+   
+   // + -> adição 
+   // - -> subtração 
+   // / -> divisão
+   // * -> multiplicação
+   // % -> módulo
+   // 
+ //var halls = 7
+//var freegels = 6  
+  
+  //println(halls - freegels)   
+    
+     
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matemáticos
+    // como resultado do cálculo de duas variáveis (contendo resultado para +,-,/,*,e %),
+    // contendo também uma interface simples e bem bonitas :)
+    // 
+    
+     println("------------Minha calculadora -------------")
+     
+     
+     
+     println("largatixa = 6 borboletas = 78")
+     
+     var largatixa = 36 
+    var borboletas = 78
+    println ("")   
+    
+    
+    println("${(largatixa + borboletas)}    - ADIÇÃO")      
+    println("${(largatixa - borboletas)}    - SUBTRAÇÃO")    
+    println("${(largatixa / borboletas)}    - DIVISÃO")     
+    println("${(largatixa * borboletas)}    - MULTIPLICAÇÃO")  
+    println("${(largatixa % borboletas)}    - MÓDOLO") 
+    
+    println("-------------------------")
+     
+   
+}
      
