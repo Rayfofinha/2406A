@@ -171,5 +171,129 @@ fun main() {
     println("-------------------------")
      
    
-}
+}-----------------------------------------------------------------  
+
+
+
+fun main() {
+/*
+   //Operadores Matemáticos  
+   
+   // + -> adição 
+   // - -> subtração 
+   // / -> divisão
+   // * -> multiplicação
+   // % -> módulo
+   // 
+ //var halls = 7
+//var freegels = 6  
+  
+  //println(halls - freegels)   
+    
+     
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matemáticos
+    // como resultado do cálculo de duas variáveis (contendo resultado para +,-,/,*,e %),
+    // contendo também uma interface simples e bem bonitas :)
+    // 
+    
+     println("------------Minha calculadora -------------")
+     
+     
+     
+     println("largatixa = 6 borboletas = 78")
+     
+     var largatixa = 36 
+    var borboletas = 78
+    println ("")   
+    
+    
+    println("${(largatixa + borboletas)}    - ADIÇÃO")      
+    println("${(largatixa - borboletas)}    - SUBTRAÇÃO")    
+    println("${(largatixa / borboletas)}    - DIVISÃO")     
+    println("${(largatixa * borboletas)}    - MULTIPLICAÇÃO")  
+    println("${(largatixa % borboletas)}    - MÓDULO") 
+    
+    println("-------------------------")
+   */  
+   /*
+    
+    //Operadores Relacionais   
+    //
+    // == -> igual a...  
+    // != -> diferente de...   
+    // !  -> negando valor...    
+    // >  -> maior que...
+    // <  -> menor que...  
+    // >= -> maior ou igual a...  
+    // <= -> menor ou igual a...   
+    // 
+    // 
+    // ++  -> adiciona 1 a um valor   
+    // --  -> subtrai 1 de um valor  
+    // +=  -> adiciona um determinado valor a um valor      
+    // -=  -> subtrai um determinado valor de um valor    
+    */
+    /*
+    var clauldetty = 50 
+    var josias = 30     
+    var berennice = 90   
+    var bernnadetthy = 80     
+    
+    println(clauldetty)   
+    clauldetty++ 
+    println(clauldetty)    
+    println("")    
+    println(josias)
+    josias--   
+    println(josias)  
+    println("")
+    println(berennice)
+    println += clauldetty 
+    println(berennice)   
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias 
+    println(bernnadetthy) 
+     */
+       
+    // Condições if..else   
+    
+    // se... senão 
+    // 
+    // estrutura:  
+    // 
+    //  if..else simples 
+    // 
+    // if(condição){       
+    // ação   
+    // }    
+    /*
+  var interruptor = true         
+  
+    if(interruptor != true){   
+        println("Luz acesa :) ")   
+    }else{    
+        println("Luz apagada :) ")   
+    }    
+    */    
+    
+    var fome = true 
+    
+    if(!fome){   
+        println("Alimente-se") 
+    }else{   
+        println("Alimentou-se")   
+    }
+        
+       
+        
+    
+    
+ }         
+
+
+
+
+
+
      
