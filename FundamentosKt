@@ -460,7 +460,230 @@ var freio = 7
       
       
      
- }------------------------------
+ }------------------------------      
+ 
+ fun main() {
+/*
+   //Operadores Matemáticos  
+   
+   // + -> adição 
+   // - -> subtração 
+   // / -> divisão
+   // * -> multiplicação
+   // % -> módulo
+   // 
+ //var halls = 7
+//var freegels = 6  
+  
+  //println(halls - freegels)   
+    
+     
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matemáticos
+    // como resultado do cálculo de duas variáveis (contendo resultado para +,-,/,*,e %),
+    // contendo também uma interface simples e bem bonitas :)
+    // 
+    
+     println("------------Minha calculadora -------------")
+     
+     
+     
+     println("largatixa = 6 borboletas = 78")
+     
+     var largatixa = 36 
+    var borboletas = 78
+    println ("")   
+    
+    
+    println("${(largatixa + borboletas)}    - ADIÇÃO")      
+    println("${(largatixa - borboletas)}    - SUBTRAÇÃO")    
+    println("${(largatixa / borboletas)}    - DIVISÃO")     
+    println("${(largatixa * borboletas)}    - MULTIPLICAÇÃO")  
+    println("${(largatixa % borboletas)}    - MÓDULO") 
+    
+    println("-------------------------")
+   */  
+   /*
+    
+    //Operadores Relacionais   
+    //
+    // == -> igual a...  
+    // != -> diferente de...   
+    // !  -> negando valor...    
+    // >  -> maior que...
+    // <  -> menor que...  
+    // >= -> maior ou igual a...  
+    // <= -> menor ou igual a...   
+    // 
+    // 
+    // ++  -> adiciona 1 a um valor   
+    // --  -> subtrai 1 de um valor  
+    // +=  -> adiciona um determinado valor a um valor      
+    // -=  -> subtrai um determinado valor de um valor    
+    */
+    /*
+    var clauldetty = 50 
+    var josias = 30     
+    var berennice = 90   
+    var bernnadetthy = 80     
+    
+    println(clauldetty)   
+    clauldetty++ 
+    println(clauldetty)    
+    println("")    
+    println(josias)
+    josias--   
+    println(josias)  
+    println("")
+    println(berennice)
+    println += clauldetty 
+    println(berennice)   
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias 
+    println(bernnadetthy) 
+     */
+       
+    // Condições if..else   
+    
+    // se... senão 
+    // 
+    // estrutura:  
+    // 
+    //  if..else simples 
+    // 
+    // if(condição){       
+    // ação   
+    // }    
+    /*
+  var interruptor = true         
+  
+    if(interruptor != true){   
+        println("Luz acesa :) ")   
+    }else{    
+        println("Luz apagada :) ")   
+    }    
+    */    
+    /*
+    var fome = true 
+    
+    if(fome){   
+        println("Alimente-se") 
+    }else{   
+        println("Alimentou-se")   
+    }            
+    */             
+   /* 
+    var senha = "azeitona"
+    
+    if(senha == "azeitona"){   
+        println("Bem-Vindo Sr Stark")
+    }else {   
+        println("Senha Incorreta, Tente Novamente")
+    }    
+    */   
+       // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS 
+       // 
+       // if..else composto  
+       // 
+       //  com o if..else composto, somos permitidos, comparar mais de duas condições (o simples 
+       //  e o else), através do "else if" 
+       //  
+     /*  
+       var coracoes = 5
+    if(coracoes >= 5){     
+        println("Você está muito saudável! Parabéns ")          
+    }else if(coracoes == 4){         
+        println("Você ta de boa")  
+    }else if(coracoes == 3){    
+        println("Cuidado com a sua saúde, durma melhor")
+    }else if(coracoes == 2){  
+        println("Vá se tratar,você não está bem...")   
+    }else if(coracoes == 1){        
+        println("Estado crítico!!!!!")    
+     }else{      
+        println("Novo reforço do Vasco")
+    }      
+     */         
+/*  
+ // 1 - 
+ // 
+                                      
+var velocidade = 10
+var freio = 7
+ if (velocidade > freio){    
+     println("estava correndo é diminuir a velocidade")
+     
+ }else{
+     println("Nu meu fi dei de cara na estera")
+ }
+//2-
+ var borboleta = 3 
+  
+  if(borboleta > 0){
+     println("olha as borboletas!!")   
+  }else if (borboleta < 0){   
+     println("mo vazio")   
+  }else{   
+      println("ué cadê as borboletas")  
+      
+  }        
+  
+  //
+  //
+  //      
+  	var coracoes = 1 
+        var vidas = 3   
+         
+        if(coracoes == 0 && vidas <= 0){
+      println("Game Over! ")
+        }else{     
+            println("O Jogo Continua")
+     
+ }     
+ */   
+ 
+
+
+// When - Quando   
+//   
+// Comparação de quando um valor for igual a um determinado valor, 
+// uma determinada ação será executada
+// 
+// Estrutura de When 
+// 
+// var auxiliar = valor  
+// 
+// whwn(auxiliar)    
+// 
+// valor -> {ação}                    
+// valor -> {ação}                                              
+// valor -> {ação}                                                                     
+// valor -> {ação}     
+// valor -> {ação}
+// else -> {ação}                                                                                                                 
+// }                                                                                                                                                                                                                                  
+// será usado geralmente quando durante o programa o valor da váriavel 
+// não for estático, ou seja estiver mudando                                                                                                                                                                                                                                                                                                                                                    
+//                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ var mes = 5     
+
+when(mes){
+ 1 -> {println ("Lisboa")}
+ 2 -> {println ("Nova York")}
+ 3 -> {println ("Rio de Janeiro")}
+ 4 -> {println ("São Paulo")}
+ 5 -> {println ("Keylandia")}
+ 6 -> {println ("Millwaulke")}    
+ 7 -> {println ("Barcelona")}
+ 8 -> {println ("Springfield")}
+ 9 -> {println ("Los Pollos Hermanos")}
+ 10 -> {println ("Elmore")}    
+ 11 -> {println ("Toronto")}
+ 12 -> {println ("Seoul")}
+    else -> {println("Acordou")}
+}
+
+}------------------------------------------
 
 
 
