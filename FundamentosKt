@@ -924,7 +924,67 @@ when(diaSemana){
 
 }---------------------------------------------------------
 
+fun main() {
 
+// Laços de repetição - Loops   
+// 
+// repeat - repita
+// while - enquanto
+// do..while - faça..enquanto
+// for - para
+// 
+//repeat - repita 
+//vai repetir uma determinada ação uma determinada quantidade de vezes 
+// 
+//Estrutura do repeat 
+//
+// repeat(númeroVezes){ 
+// ação
+// }             
+/*
+repeat(8){
+    println("Isso é um teste, testando, testando")
+} 
+
+//Exercício:  
+//
+   
+ var casa = 6   
+     
+    repeat(8){  
+        println(casa ++)
+    }                
+    */
+    
+  //Laço while - enquanto 
+  //
+  // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada 
+  // Estrutura do while 
+  // 
+  // while(condição){  
+  // ação 
+  // }
+        
+    
+    var contador = 0 
+    while(contador < 10){
+          println(contador++ )
+    }             
+    
+    //Exercício:   
+    
+     var bateria = 100
+    while(bateria < 15){
+          println(bateria --)    
+             
+    }     
+          
+    }             
+    
+    
+    
+    
+}--------------------------------------------------------------
 
 
      
