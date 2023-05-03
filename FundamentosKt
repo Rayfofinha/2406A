@@ -1310,4 +1310,30 @@ println(aluno)
   // Herança - atributos de um obj que são HERDADOS de uma classe 
   //
 
-}--------------------------------
+}-------------------------------- 
+
+fun main() {
+     
+   var pessoa1 = Pessoa() //instanciamos um obj   
+   
+   println(pessoa1.idioma) //Exibir um atributo de um obj
+   println(pessoa1.nome)   
+   pessoa1.nome = "Rayane"
+   println(pessoa1.nome + ", "+pessoa1.idade)
+    
+    //Exercícios -> Faça uma apresentação sua ultilizando a classe pessoa() já criada e ultilizando pelo 
+    //menos, todos os atribulados que existem na classe 
+}  
+
+
+class Pessoa {  
+    //Atributos que toda pessoa pode ter 
+    var nome = "Rayane"
+    var idade = 15
+    var nacionalidade = "Brasileira"
+    var idioma = "Português"
+    var profissao = "Desempregada"
+    
+    
+    
+}    -------------------------------------
