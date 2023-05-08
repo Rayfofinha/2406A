@@ -1336,4 +1336,48 @@ class Pessoa {
     
     
     
-}    -------------------------------------
+}    -------------------------------------    
+
+
+fun main() {
+    /* 
+   var pessoa1 = Pessoa() //instanciamos um obj   
+   
+   println(pessoa1.idioma) //Exibir um atributo de um obj
+   println(pessoa1.nome)   
+   pessoa1.nome = "Rayane"
+   println(pessoa1.nome + ", "+pessoa1.idade)
+    
+    //Exercícios -> Faça uma apresentação sua ultilizando a classe pessoa() já criada e ultilizando pelo 
+    //menos, todos os atribulados que existem na classe    
+ */ 
+    
+     var pessoa3 = Pessoa()   
+     var aniaml1 = Animal("Cachorro", "Pinscher", 7, "Chinelo","grande")
+    // Exercício -> Faça o catálogo(fictício) de animais que estão morando no zoológico de SP
+    // com no mínimo 20 animais, sem repetição de raça
+    
+}    
+    
+    
+ class Animal(var especie: String, //atributos que todo animalzin deve ter
+              var raca: String,
+              var idade: Int,
+              var  dieta: String,
+              var porte: String){   
+    
+    
+}  
+ 
+
+class Pessoa {  
+    //Atributos que toda pessoa pode ter 
+    var nome = "Rayane"
+    var idade = 15
+    var nacionalidade = "Brasileira"
+    var idioma = "Português" //Valor Inicial
+    var profissao = "Desempregada"
+    
+    
+    
+}-------------------------------
